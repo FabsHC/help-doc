@@ -11,6 +11,8 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.JSpinner;
+import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 
 @SuppressWarnings("serial")
@@ -20,6 +22,9 @@ public class Main extends JFrame{
 	private JPanel panel1FormSpringLayout;
 	private JPanel panel2TableQueryString;
 	private JButton btnGerar;
+	private JTextField txtNomeServiço;
+	private JTextField txtUrl;
+	private JSpinner spnMetodoHttp;
 	
 	
 	public static void main(String[] args) {
