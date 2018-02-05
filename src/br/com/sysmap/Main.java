@@ -32,7 +32,7 @@ import br.com.sysmap.vo.QueryString;
 public class Main extends JFrame{
 	
 	private String[] nmLbls= {"Nome do serviço: ", "URL do Serviço: ", "Método HTTP: "};
-	private String[] httpMethods = {"POST", "PUT", "GET"};
+	private String[] httpMethods = {"Selecione um serviço abaixo","POST", "PUT", "GET"};
 
 	private JSplitPane panelGeral;
 	private JPanel panel1FormSpringLayout;
@@ -123,7 +123,7 @@ public class Main extends JFrame{
 	}
 
 	private void definePropriedadesTela() {
-		this.setSize(780,420);
+		this.setSize(850,420);
 		this.setResizable(false);
 		this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		this.setLocationRelativeTo(null);
